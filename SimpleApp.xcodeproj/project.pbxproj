@@ -329,6 +329,8 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "SimpleApp-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
+				TAPI_EXTRA_PROJECT_HEADERS = "$(CONFIGURATION_TEMP_DIR)";
+				USER_HEADER_SEARCH_PATHS = "Build/Intermediates.noindex/TestPackage.build/**";
 			};
 			name = Debug;
 		};
@@ -358,6 +360,8 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "SimpleApp-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
+				TAPI_EXTRA_PROJECT_HEADERS = "$(CONFIGURATION_TEMP_DIR)";
+				USER_HEADER_SEARCH_PATHS = "Build/Intermediates.noindex/TestPackage.build/**";
 			};
 			name = Release;
 		};
