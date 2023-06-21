@@ -6,10 +6,8 @@
 //
 
 #import "AnimalFactory.h"
-#import "SimpleApp-Swift.h"
 
 @import TestPackage;
-
 
 
 @implementation AnimalFactory
