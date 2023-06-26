@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A95C69F22A49B34400BB0C1B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A95C69F12A49B34400BB0C1B /* AppDelegate.m */; };
+		A95C69F52A49B34400BB0C1B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A95C69F42A49B34400BB0C1B /* SceneDelegate.m */; };
+		A95C69F82A49B34400BB0C1B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A95C69F72A49B34400BB0C1B /* ViewController.m */; };
+		A95C69FB2A49B34400BB0C1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A95C69F92A49B34400BB0C1B /* Main.storyboard */; };
+		A95C69FD2A49B34500BB0C1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A95C69FC2A49B34500BB0C1B /* Assets.xcassets */; };
+		A95C6A002A49B34500BB0C1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A95C69FE2A49B34500BB0C1B /* LaunchScreen.storyboard */; };
+		A95C6A032A49B34500BB0C1B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A95C6A022A49B34500BB0C1B /* main.m */; };
 		A99C363E2A4201DC005328C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A99C363D2A4201DC005328C3 /* AppDelegate.m */; };
 		A99C36412A4201DC005328C3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A99C36402A4201DC005328C3 /* ViewController.m */; };
 		A99C36432A4201DD005328C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A99C36422A4201DD005328C3 /* Assets.xcassets */; };
@@ -18,6 +25,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A95C69EE2A49B34400BB0C1B /* SimpleAppIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleAppIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A95C69F02A49B34400BB0C1B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A95C69F12A49B34400BB0C1B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A95C69F32A49B34400BB0C1B /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		A95C69F42A49B34400BB0C1B /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		A95C69F62A49B34400BB0C1B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A95C69F72A49B34400BB0C1B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A95C69FA2A49B34400BB0C1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A95C69FC2A49B34500BB0C1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A95C69FF2A49B34500BB0C1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A95C6A012A49B34500BB0C1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A95C6A022A49B34500BB0C1B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A99C36392A4201DC005328C3 /* SimpleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A99C363C2A4201DC005328C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A99C363D2A4201DC005328C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -35,6 +54,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		A95C69EB2A49B34400BB0C1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A99C36362A4201DC005328C3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -46,6 +72,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A95C69EF2A49B34400BB0C1B /* SimpleAppIOS */ = {
+			isa = PBXGroup;
+			children = (
+				A95C69F02A49B34400BB0C1B /* AppDelegate.h */,
+				A95C69F12A49B34400BB0C1B /* AppDelegate.m */,
+				A95C69F32A49B34400BB0C1B /* SceneDelegate.h */,
+				A95C69F42A49B34400BB0C1B /* SceneDelegate.m */,
+				A95C69F62A49B34400BB0C1B /* ViewController.h */,
+				A95C69F72A49B34400BB0C1B /* ViewController.m */,
+				A95C69F92A49B34400BB0C1B /* Main.storyboard */,
+				A95C69FC2A49B34500BB0C1B /* Assets.xcassets */,
+				A95C69FE2A49B34500BB0C1B /* LaunchScreen.storyboard */,
+				A95C6A012A49B34500BB0C1B /* Info.plist */,
+				A95C6A022A49B34500BB0C1B /* main.m */,
+			);
+			path = SimpleAppIOS;
+			sourceTree = "<group>";
+		};
 		A99C36302A4201DC005328C3 = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +98,7 @@
 				A99C36522A420220005328C3 /* AnimalFactory.h */,
 				A99C36532A420220005328C3 /* AnimalFactory.m */,
 				A99C363B2A4201DC005328C3 /* SimpleApp */,
+				A95C69EF2A49B34400BB0C1B /* SimpleAppIOS */,
 				A99C363A2A4201DC005328C3 /* Products */,
 				A99C364F2A420202005328C3 /* SimpleApp-Bridging-Header.h */,
 				A99C36572A420377005328C3 /* Frameworks */,
@@ -64,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				A99C36392A4201DC005328C3 /* SimpleApp.app */,
+				A95C69EE2A49B34400BB0C1B /* SimpleAppIOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,6 +147,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		A95C69ED2A49B34400BB0C1B /* SimpleAppIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A95C6A062A49B34500BB0C1B /* Build configuration list for PBXNativeTarget "SimpleAppIOS" */;
+			buildPhases = (
+				A95C69EA2A49B34400BB0C1B /* Sources */,
+				A95C69EB2A49B34400BB0C1B /* Frameworks */,
+				A95C69EC2A49B34400BB0C1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleAppIOS;
+			productName = SimpleAppIOS;
+			productReference = A95C69EE2A49B34400BB0C1B /* SimpleAppIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
 		A99C36382A4201DC005328C3 /* SimpleApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A99C364C2A4201DD005328C3 /* Build configuration list for PBXNativeTarget "SimpleApp" */;
@@ -130,6 +193,9 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
+					A95C69ED2A49B34400BB0C1B = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
 					A99C36382A4201DC005328C3 = {
 						CreatedOnToolsVersion = 14.3.1;
 						LastSwiftMigration = 1430;
@@ -150,11 +216,22 @@
 			projectRoot = "";
 			targets = (
 				A99C36382A4201DC005328C3 /* SimpleApp */,
+				A95C69ED2A49B34400BB0C1B /* SimpleAppIOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		A95C69EC2A49B34400BB0C1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A95C6A002A49B34500BB0C1B /* LaunchScreen.storyboard in Resources */,
+				A95C69FD2A49B34500BB0C1B /* Assets.xcassets in Resources */,
+				A95C69FB2A49B34400BB0C1B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A99C36372A4201DC005328C3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -167,6 +244,17 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		A95C69EA2A49B34400BB0C1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A95C69F82A49B34400BB0C1B /* ViewController.m in Sources */,
+				A95C69F22A49B34400BB0C1B /* AppDelegate.m in Sources */,
+				A95C6A032A49B34500BB0C1B /* main.m in Sources */,
+				A95C69F52A49B34400BB0C1B /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A99C36352A4201DC005328C3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -182,6 +270,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		A95C69F92A49B34400BB0C1B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A95C69FA2A49B34400BB0C1B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A95C69FE2A49B34500BB0C1B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A95C69FF2A49B34500BB0C1B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		A99C36442A4201DD005328C3 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -193,6 +297,65 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		A95C6A042A49B34500BB0C1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5K844XFC6W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SimpleAppIOS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.gestrich.SimpleAppIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A95C6A052A49B34500BB0C1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5K844XFC6W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SimpleAppIOS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.gestrich.SimpleAppIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		A99C364A2A4201DD005328C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -368,6 +531,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		A95C6A062A49B34500BB0C1B /* Build configuration list for PBXNativeTarget "SimpleAppIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A95C6A042A49B34500BB0C1B /* Debug */,
+				A95C6A052A49B34500BB0C1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A99C36342A4201DC005328C3 /* Build configuration list for PBXProject "SimpleApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
