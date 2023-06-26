@@ -14,7 +14,8 @@
 //#import "/Users/bill/Library/Developer/Xcode/DerivedData/SimpleApp-axfzvryccojhvubnatlnnuopoyyf/Build/Intermediates.noindex/TestPackage.build/Debug/TestPackage.build/Objects-normal/arm64/TestPackage-Swift.h"
 
 //This works after adding the following to user search paths: ${OBJROOT}/GeneratedModuleMaps
-#import "TestPackage-Swift.h"
+//#import "TestPackage-Swift.h"
+#import "/Users/bill/Library/Developer/Xcode/DerivedData/SimpleApp-axfzvryccojhvubnatlnnuopoyyf/Build/Intermediates.noindex/GeneratedModuleMaps-iphonesimulator/TestPackage-Swift.h"
 
 #import <Foundation/Foundation.h>
 

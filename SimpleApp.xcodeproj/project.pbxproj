@@ -14,6 +14,9 @@
 		A95C69FD2A49B34500BB0C1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A95C69FC2A49B34500BB0C1B /* Assets.xcassets */; };
 		A95C6A002A49B34500BB0C1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A95C69FE2A49B34500BB0C1B /* LaunchScreen.storyboard */; };
 		A95C6A032A49B34500BB0C1B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A95C6A022A49B34500BB0C1B /* main.m */; };
+		A95C6A072A49B36A00BB0C1B /* AnimalFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = A99C36532A420220005328C3 /* AnimalFactory.m */; };
+		A95C6A082A49B37700BB0C1B /* SimpleSwiftClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99C36502A420202005328C3 /* SimpleSwiftClass.swift */; };
+		A95C6A0A2A49B3C800BB0C1B /* TestPackage in Frameworks */ = {isa = PBXBuildFile; productRef = A95C6A092A49B3C800BB0C1B /* TestPackage */; };
 		A99C363E2A4201DC005328C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A99C363D2A4201DC005328C3 /* AppDelegate.m */; };
 		A99C36412A4201DC005328C3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A99C36402A4201DC005328C3 /* ViewController.m */; };
 		A99C36432A4201DD005328C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A99C36422A4201DD005328C3 /* Assets.xcassets */; };
@@ -58,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A95C6A0A2A49B3C800BB0C1B /* TestPackage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,6 +164,9 @@
 			dependencies = (
 			);
 			name = SimpleAppIOS;
+			packageProductDependencies = (
+				A95C6A092A49B3C800BB0C1B /* TestPackage */,
+			);
 			productName = SimpleAppIOS;
 			productReference = A95C69EE2A49B34400BB0C1B /* SimpleAppIOS.app */;
 			productType = "com.apple.product-type.application";
@@ -250,8 +257,10 @@
 			files = (
 				A95C69F82A49B34400BB0C1B /* ViewController.m in Sources */,
 				A95C69F22A49B34400BB0C1B /* AppDelegate.m in Sources */,
+				A95C6A082A49B37700BB0C1B /* SimpleSwiftClass.swift in Sources */,
 				A95C6A032A49B34500BB0C1B /* main.m in Sources */,
 				A95C69F52A49B34400BB0C1B /* SceneDelegate.m in Sources */,
+				A95C6A072A49B36A00BB0C1B /* AnimalFactory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,7 +321,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -322,7 +331,10 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SimpleApp-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${OBJROOT}/GeneratedModuleMaps";
 			};
 			name = Debug;
 		};
@@ -341,7 +353,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -351,7 +363,10 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SimpleApp-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${OBJROOT}/GeneratedModuleMaps";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -561,6 +576,10 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		A95C6A092A49B3C800BB0C1B /* TestPackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TestPackage;
+		};
 		A99C36582A420377005328C3 /* TestPackage */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = TestPackage;
