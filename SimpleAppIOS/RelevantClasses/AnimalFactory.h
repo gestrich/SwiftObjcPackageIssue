@@ -5,9 +5,9 @@
 //  Created by Bill Gestrich on 6/20/23.
 //
 
-//This fails to compile "module 'TestPackage' not found"
+//This fails to compile "module 'AnimalSwift' not found"
 //It occurs once you add AnimalFactory.h to the bridging header.
-//@import TestPackage;
+//@import AnimalSwift;
 
 @class Zebra;
 

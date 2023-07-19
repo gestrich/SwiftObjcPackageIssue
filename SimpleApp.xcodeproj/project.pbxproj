@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A928D3DA2A68023500ACB5FA /* TestPackage in Frameworks */ = {isa = PBXBuildFile; productRef = A928D3D92A68023500ACB5FA /* TestPackage */; };
+		A928D3DE2A68047700ACB5FA /* AnimalPackage in Frameworks */ = {isa = PBXBuildFile; productRef = A928D3DD2A68047700ACB5FA /* AnimalPackage */; };
 		A95C69F22A49B34400BB0C1B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A95C69F12A49B34400BB0C1B /* AppDelegate.m */; };
 		A95C69F52A49B34400BB0C1B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A95C69F42A49B34400BB0C1B /* SceneDelegate.m */; };
 		A95C69F82A49B34400BB0C1B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A95C69F72A49B34400BB0C1B /* ViewController.m */; };
@@ -20,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A928D3DC2A68046B00ACB5FA /* AnimalPackage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = AnimalPackage; sourceTree = "<group>"; };
 		A95C69EE2A49B34400BB0C1B /* SimpleAppIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleAppIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A95C69F02A49B34400BB0C1B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A95C69F12A49B34400BB0C1B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -36,7 +37,6 @@
 		A99C36502A420202005328C3 /* AnimalPrinter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalPrinter.swift; sourceTree = "<group>"; };
 		A99C36522A420220005328C3 /* AnimalFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimalFactory.h; sourceTree = "<group>"; };
 		A99C36532A420220005328C3 /* AnimalFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimalFactory.m; sourceTree = "<group>"; };
-		A99C36562A4202BD005328C3 /* TestPackage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = TestPackage; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A928D3DA2A68023500ACB5FA /* TestPackage in Frameworks */,
+				A928D3DE2A68047700ACB5FA /* AnimalPackage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,7 +102,7 @@
 		A99C36552A4202BD005328C3 /* Packages */ = {
 			isa = PBXGroup;
 			children = (
-				A99C36562A4202BD005328C3 /* TestPackage */,
+				A928D3DC2A68046B00ACB5FA /* AnimalPackage */,
 			);
 			name = Packages;
 			sourceTree = "<group>";
@@ -131,7 +131,7 @@
 			);
 			name = SimpleAppIOS;
 			packageProductDependencies = (
-				A928D3D92A68023500ACB5FA /* TestPackage */,
+				A928D3DD2A68047700ACB5FA /* AnimalPackage */,
 			);
 			productName = SimpleAppIOS;
 			productReference = A95C69EE2A49B34400BB0C1B /* SimpleAppIOS.app */;
@@ -416,9 +416,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		A928D3D92A68023500ACB5FA /* TestPackage */ = {
+		A928D3DD2A68047700ACB5FA /* AnimalPackage */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = TestPackage;
+			productName = AnimalPackage;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

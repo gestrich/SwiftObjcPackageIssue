@@ -7,7 +7,7 @@
 
 #import "AnimalFactory.h"
 
-@import TestPackage;
+@import AnimalSwift;
 
 
 @implementation AnimalFactory

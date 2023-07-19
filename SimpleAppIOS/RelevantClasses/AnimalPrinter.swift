@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import TestPackage
+import AnimalSwift
 
 class AnimalPrinter {
 
