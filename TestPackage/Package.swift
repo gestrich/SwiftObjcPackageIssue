@@ -24,8 +24,5 @@ let package = Package(
             dependencies: [],
             publicHeadersPath: "."
         ),
-        .testTarget(
-            name: "TestPackageTests",
-            dependencies: ["TestPackage"]),
     ]
 )
