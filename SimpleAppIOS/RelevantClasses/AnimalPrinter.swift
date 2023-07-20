@@ -21,6 +21,6 @@ class AnimalPrinter {
         //In this case, we are accessing the objc-method getZebra which has a
         //package symbol `Zebra` as the return value
         let animalFactory = AnimalFactory()
-        //animalFactory.getZebra() //Compile error: "Value of type 'AnimalFactory' has no member 'getZebra'"
+        animalFactory.getZebra() //Compile error: "Value of type 'AnimalFactory' has no member 'getZebra'"
     }
 }
